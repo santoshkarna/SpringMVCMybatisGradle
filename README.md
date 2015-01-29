@@ -1,2 +1,2 @@
 # SpringMVCMybatisGradle
-This Project is demo project using Spring MVC+JSP+MyBatis+Gradle
+This is demo project using Spring MVC+JSP+MyBatis+Gradle
