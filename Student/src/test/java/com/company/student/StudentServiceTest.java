@@ -1,4 +1,4 @@
-package com.tpole.student;
+package com.company.student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +11,9 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import com.tpole.student.mappers.StudentMapper;
-import com.tpole.student.model.Student;
-import com.tpole.student.service.StudentServiceImpl;
+import com.company.student.mappers.StudentMapper;
+import com.company.student.model.Student;
+import com.company.student.service.StudentServiceImpl;
 
 /**
  * @author Santosh

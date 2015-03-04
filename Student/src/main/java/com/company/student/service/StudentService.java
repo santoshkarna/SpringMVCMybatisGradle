@@ -1,8 +1,8 @@
-package com.tpole.student.service;
+package com.company.student.service;
 
 import java.util.List;
 
-import com.tpole.student.model.Student;
+import com.company.student.model.Student;
 
 /**
  * Service class for Student domain.

@@ -1,4 +1,4 @@
-package com.tpole.student.controller;
+package com.company.student.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.tpole.student.model.Student;
-import com.tpole.student.service.StudentService;
+import com.company.student.model.Student;
+import com.company.student.service.StudentService;
 
 /**
  * Controller class for Student domain.

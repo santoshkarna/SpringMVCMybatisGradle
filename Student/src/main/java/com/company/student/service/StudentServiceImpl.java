@@ -1,12 +1,12 @@
-package com.tpole.student.service;
+package com.company.student.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.tpole.student.mappers.StudentMapper;
-import com.tpole.student.model.Student;
+import com.company.student.mappers.StudentMapper;
+import com.company.student.model.Student;
 
 /**
  * Implementation class for UserService.
@@ -24,7 +24,7 @@ public class StudentServiceImpl implements StudentService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.tpole.student.service.StudentService#insertStudent(com.tpole.student.
+	 * com.company.student.service.StudentService#insertStudent(com.company.student.
 	 * model.Student)
 	 */
 	@Override
@@ -36,7 +36,7 @@ public class StudentServiceImpl implements StudentService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.tpole.student.service.StudentService#deleteStudentById(java.lang.
+	 * com.company.student.service.StudentService#deleteStudentById(java.lang.
 	 * Long)
 	 */
 	@Override
@@ -48,8 +48,8 @@ public class StudentServiceImpl implements StudentService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.tpole.student.service.StudentService#updateStudent(java.lang.Long,
-	 * com.tpole.student. model.Student)
+	 * com.company.student.service.StudentService#updateStudent(java.lang.Long,
+	 * com.company.student. model.Student)
 	 */
 	@Override
 	public void updateStudent(Long studentId, Student student) {
@@ -60,7 +60,7 @@ public class StudentServiceImpl implements StudentService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.tpole.student.service.StudentService#getStudentByName(java.lang.String
+	 * com.company.student.service.StudentService#getStudentByName(java.lang.String
 	 * )
 	 */
 	@Override
@@ -71,7 +71,7 @@ public class StudentServiceImpl implements StudentService {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.tpole.student.service.StudentService#getAllStudent()
+	 * @see com.company.student.service.StudentService#getAllStudent()
 	 */
 	@Override
 	public List<Student> getAllStudent() {
@@ -82,7 +82,7 @@ public class StudentServiceImpl implements StudentService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.tpole.student.service.StudentService#getStudentById(java.lang.Long)
+	 * com.company.student.service.StudentService#getStudentById(java.lang.Long)
 	 */
 	@Override
 	public Student getStudentById(Long studentId) {

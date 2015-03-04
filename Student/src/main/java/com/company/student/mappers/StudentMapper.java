@@ -1,4 +1,4 @@
-package com.tpole.student.mappers;
+package com.company.student.mappers;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import com.tpole.student.model.Student;
+import com.company.student.model.Student;
 
 /**
  * Mapper class for Student domain.

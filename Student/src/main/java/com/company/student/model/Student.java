@@ -1,4 +1,4 @@
-package com.tpole.student.model;
+package com.company.student.model;
 
 /**
  * Domain class for Student model.
